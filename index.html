@@ -15,12 +15,22 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <h2>Enter an item below to add it to your To-Do List:</h2>
+          <h2>Enter a task below to add it to your To-Do List:</h2>
           <form id="userItem">
             <div class="form-group">
-              <label for="newItem">Add:</label>
               <input type="text" class="form-control" id="newItem">
+              <br>
+              <button class="btn btn-success" type="submit" name="inputButton">Add!</button>
             </div>
+          </form>
+        </div>
+        <div class="col-md-6">
+          <div id="show-result">
+          <h2>To-Do List:</h2>
+          <p>Click a task to remove it once finished.</p>
+          <ul id="items">
+          </ul>
+          </div>
         </div>
       </div>
     </div>
